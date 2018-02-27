@@ -13,10 +13,28 @@ namespace GA
         
         static void Main(string[] args)
         {
+            //int n, m;
+
+
+
+            //Console.WriteLine("вас приветтвует программа для распределения на кучи ");
+
+
+
+
+
+
+
+
+
+
+
+
+
             Random r = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
             List<int> summ=new List<int>();
             List<int> data = new List<int>();
-            int m = 2;
+            int m = 5;
 
             for (int i = 0; i < m; i++)
                 summ.Add(0);
