@@ -295,8 +295,7 @@ namespace GA
 
                 Console.WriteLine(summ);
                 summ = 0;
-            }
-            
+            }            
         }
     }
 }
